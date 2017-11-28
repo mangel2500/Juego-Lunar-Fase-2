@@ -1,0 +1,144 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px
+}
+
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+    text-align: center;
+}
+
+.d{;height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+
+body {
+    background-image:url(../img/fondo2.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.manual {
+    display:inline-block;        
+    width: 125%;           
+    position: fixed;
+    top: 35%;
+}
+
+.manual a{
+    padding: 15px;
+    background-color: red;
+    font-size: 12px;
+    text-decoration:none;
+    position: relative;
+    color: black;
+}
+
+.reset {
+    display:inline-block;          
+    width: 125%;          
+    position: fixed;
+    top: 45%;
+}
+
+.reset a{
+    padding: 15px;
+    background-color: red;
+    font-size: 12px;
+    text-decoration:none;
+    position: relative;
+    color: black;
+}
+
+.parar {
+    display:inline-block;          
+    width: 125%;           
+    position: fixed;
+    top: 55%;
+}
+
+.parar a{
+    padding: 15px;
+    background-color: red;
+    font-size: 12px;
+    text-decoration:none;
+    position: relative;
+    color: black;
+}
+
+.velocidad {
+	display:inline-block;         
+    width: 23%;           
+    position: fixed;
+    top: 2%;
+    left: 0%;
+}
+
+.altura {
+	display:inline-block;          
+    width: 23%;          
+    position: fixed;
+    top: 2%;
+    left: 38%;
+}
+
+.fuel {
+	display:inline-block;        
+    width: 23%;         
+    position: fixed;
+    top: 2%;
+    left: 74%;
+}
+
+.nave {
+    display:inline-block;         
+    height: 20%;   
+    position: fixed; 
+    top: 15%;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+}
+
+.manual-usuario {
+    display:inline-block;         
+    height: 30%;   
+    position: fixed; 
+    top: 15%;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+}
+
+.volver {
+    display:inline-block;          
+    width: 125%;          
+    position: fixed;
+    top: 5%;
+    left: 70%;
+}
+
+.volver a{
+    padding: 15px;
+    background-color: red;
+    font-size: 15px;
+    text-decoration:none;
+    position: relative;
+    color: black;
+}
+
+#luna  {
+    display:inline-block;         
+    width: 70%;    
+    position: fixed;
+    bottom: 0%;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+}
